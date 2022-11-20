@@ -39,3 +39,19 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sajosam&show_icons=true&locale=en" alt="sajosam" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sajosam&" alt="sajosam" /></p>
+
+<p>
+  parts of speach
+  import nltk
+from nltk.tag import DefaultTagger
+exptagger = DefaultTagger('NN')
+exptagger.tag_sents([['Hi', ','], ['How', 'are', 'you', '?']])
+  
+  import nltk
+from nltk.tag import untag
+untag([('Tutorials', 'NN'), ('Point', 'NN')])
+  import nltk
+
+# import all the resources for Natural Language Processing with Python
+nltk.download("book")
+</p>
