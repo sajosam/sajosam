@@ -46,12 +46,39 @@
 from nltk.tag import DefaultTagger
 exptagger = DefaultTagger('NN')
 exptagger.tag_sents([['Hi', ','], ['How', 'are', 'you', '?']])
-  
   import nltk
 from nltk.tag import untag
 untag([('Tutorials', 'NN'), ('Point', 'NN')])
   import nltk
-
-# import all the resources for Natural Language Processing with Python
 nltk.download("book")
+  question 13
+  
+  import nltk
+from nltk.util import ngrams
+text = "this is a very good book to study";
+Ngrams = ngrams(sequence=nltk.wordpunct_tokenize(text), n=3)
+for grams in Ngrams:
+ print(grams)
+  
+  question 12
+  import requests
+from bs4 import BeautifulSoup
+   
+URL = "http://www.ajce.in"
+r = requests.get(URL)
+   
+soup = BeautifulSoup(r.content, 'html5lib')
+   
+print(soup.prettify())
+  
+  question 9
+  
+  import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import pandas as pd
+from sklearn.datasets import load_iris
+  
+  
 </p>
