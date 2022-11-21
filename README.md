@@ -103,5 +103,40 @@ plt.scatter(df3.Age,df3['Income($)'],color='black')
 plt.scatter(km.cluster_centers_[:,0],km.cluster_centers_[:,1],color='purple',marker='*',label='centroid')
 plt.legend()
   
+question9
+-import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import pandas as pd
+from sklearn.datasets import load_iris
+data = load_iris()
+df = pd.DataFrame(data.data, columns=data.feature_names)
+df['target'] = data.target
+X_train, X_test, Y_train, Y_test = train_test_split(df[data.feature_names], df['target'], random_state=42,test_size=0.1)
+clf = DecisionTreeClassifier()
+clf.fit(X_train, Y_train)
+y_pred=clf.predict(X_test)
+# comparing actual response values (y_test) with predicted response values (y_pred)
+from sklearn import metrics
+print("Decision tre model accuracy(in %):", metrics.accuracy_score(Y_test, y_pred)*100)
+
+question8
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+x = [[0, 1], [5, 1], [15, 2], [25, 5], [35, 11], [45, 15], [55, 34], [60, 35]]
+y = [4, 5, 20, 14, 32, 22, 38, 43]
+x, y = np.array(x), np.array(y)
+model = LinearRegression().fit(x, y)
+r_sq = model.score(x, y)
+print(f"coefficient of determination: {r_sq}")
+
+print(f"intercept: {model.intercept_}")
+
+print(f"coefficients: {model.coef_}")
+y_pred = model.predict(x)
+print(f"predicted response:\n{y_pred}")
+  
   
 </p>
