@@ -137,6 +137,6 @@ print(f"intercept: {model.intercept_}")
 print(f"coefficients: {model.coef_}")
 y_pred = model.predict(x)
 print(f"predicted response:\n{y_pred}")
-  
+  https://drive.google.com/drive/folders/1y3IGPZdQKurNlcFmjZDueY1dtlIMwNQ-?usp=share_link
   
 </p>
