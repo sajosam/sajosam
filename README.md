@@ -117,7 +117,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(df[data.feature_names], df['
 clf = DecisionTreeClassifier()
 clf.fit(X_train, Y_train)
 y_pred=clf.predict(X_test)
-# comparing actual response values (y_test) with predicted response values (y_pred)
+
 from sklearn import metrics
 print("Decision tre model accuracy(in %):", metrics.accuracy_score(Y_test, y_pred)*100)
 
