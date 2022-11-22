@@ -41,7 +41,7 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sajosam&" alt="sajosam" /></p>
 
 
-<p> 
+<code> 
 
   main activity--------
 package com.example.data;
@@ -234,5 +234,5 @@ public class DbClass extends SQLiteOpenHelper {
 }
 
 
-</p>
+</code>
 
