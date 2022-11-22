@@ -236,3 +236,34 @@ public class DbClass extends SQLiteOpenHelper {
 
 </pre>
 
+<br>
+<p>
+package com.example.intentexampleapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class ThirdActivity extends AppCompatActivity {
+
+    Button goto_main_btn;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_third);
+
+        goto_main_btn= findViewById(R.id.goto_main_btn);
+        goto_main_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}
+</p>
