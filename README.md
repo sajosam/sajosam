@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **Spotify Backstage & Devops (GKE)**
 
-- 👯 I’m looking to collaborate on **ML Projects**
+- 👯 I’m looking to collaborate on **Spotify Bakcstage**
 
 - 💬 Ask me about **Django, Flask, FastAPI, Cloud, Machine Learning, Devops, Spotify Backstage**
 
