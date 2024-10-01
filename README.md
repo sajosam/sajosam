@@ -7,13 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [pip package](https://pypi.org/project/machineLearningModel/)
+- 🔭 I’m currently working on [Raggenie](https://github.com/sirocco-ventures/raggenie)
 
-- 🌱 I’m currently learning **Rest API**
+- 🌱 I’m currently learning **Spotify Backstage & Devops (GKE)**
 
 - 👯 I’m looking to collaborate on **ML Projects**
 
-- 💬 Ask me about **Django, Flask, Cloud, Machine Learning**
+- 💬 Ask me about **Django, Flask, FastAPI, Cloud, Machine Learning, Devops, Spotify Backstage**
 
 - 📫 How to reach me **sajosamambalakara@gmail.com**
 
@@ -27,7 +27,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/sajo-sam-337819178/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sajo-sam-337819178/" height="30" width="40" /></a>
 <a href="https://kaggle.com/kaggle.com/sajosam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="kaggle.com/sajosam" height="30" width="40" /></a>
-<a href="https://medium.com/@saajosaam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@saajosaam" height="30" width="40" /></a>
+<a href="https://medium.com/@sajo02" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@saajosaam" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/https://www.hackerrank.com/sajosamambalaka1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/sajosamambalaka1" height="30" width="40" /></a>
 </p>
 
